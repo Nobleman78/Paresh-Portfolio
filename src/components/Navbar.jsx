@@ -28,11 +28,11 @@ const Navbar = () => {
             Experience
           </li>
         </a>
-        {/* <a href="#Projects">
+        <a href="#Skills">
           <li className="text-md transition-all duration-300 p-1 md:p-0">
-            Projects
+            Skills
           </li>
-        </a> */}
+        </a>
         <a href="#Footer">
           <li className="text-md transition-all duration-300 p-1 md:p-0">
             Contact
