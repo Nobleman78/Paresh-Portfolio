@@ -26,7 +26,7 @@ const Home = () => {
                         <span className="text-2xl">Hi all,  I am</span> <span className="text-5xl">Paresh Chakma</span>
                    
                     <p className="text-blue-700 text-4xl"> {">>"} Dedicated and Game changer</p>
-                    <p>
+                    <p className="text-xl">
                         I am passionate about giving my best in any work I do. With dedication, responsibility,
                         and a positive mindset, I strive to create meaningful results and make a difference.
                     </p>
