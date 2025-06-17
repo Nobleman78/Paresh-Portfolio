@@ -9,7 +9,7 @@ const About = () => {
     const tabs = [
         { id: 'personal', label: 'Personal', icon: <FiUser /> },
         { id: 'education', label: 'Education', icon: <FiBook /> },
-        // { id: 'certificate', label: 'Certificates', icon: <FiAward /> }
+         { id: 'award', label: 'Awards', icon: <FiAward /> }
     ];
 
     useEffect(() => {
@@ -143,28 +143,28 @@ const About = () => {
                         )}
 
                         {/* Certificates */}
-                        {activeTab === 'certificate' && (
+                        {activeTab === 'award' && (
                             <div className="text-center py-12" data-aos="zoom-in">
                                 <div className="inline-flex p-5 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-full mb-6">
                                     <FiAward className="text-4xl text-blue-600 dark:text-purple-400" />
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-3">
-                                    Professional Certifications
+                                    Professional Award
                                 </h3>
                                 <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-                                    My certifications in web development and related technologies
+                                    My Awards 
                                 </p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     {[
                                         {
-                                            title: 'Computer/IT Skill Certificates',
-                                            provider: 'Youth Development Training Center, Khagrachhari',
+                                            title: 'Employee of theMonth',
+                                            provider: 'Hebaang',
                                             year: '2024'
                                         },
                                         {
-                                            title: 'Soft Skills & Public Administration',
-                                            provider: 'Udemy',
-                                            year: '2025'
+                                            title: ' Top Sales Performer',
+                                            provider: 'Hebaang',
+                                            year: '2024'
                                         }
                                     ].map((cert, index) => (
                                         <div
