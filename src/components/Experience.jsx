@@ -49,7 +49,7 @@ const Experience = () => {
                     <img className="w-full md:w-50 h-50" src={hebang} alt="" />
                     <div className="flex flex-col md:flex-row px-5 py-2 md:px-0 md:py-0 gap-10 md:items-center justify-around w-full">
                         <p className="text-3xl">Sales Executive at Hebang</p>
-                        <p className="text-3xl">7 Months</p>
+                        <p className="text-3xl">1 Year</p>
                     </div>
                 </div>
             </div>
